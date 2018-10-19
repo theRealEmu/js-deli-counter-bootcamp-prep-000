@@ -25,6 +25,7 @@ function nowServing(katzDeliLine) {
 //3) currentLine()
 function currentLine(numArray) {
   
+  var duplicateArray = numArray;
   var string = "The line is currently: ";
   var index = 0;
   
