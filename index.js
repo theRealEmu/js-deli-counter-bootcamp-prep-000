@@ -33,12 +33,13 @@ function currentLine(numArray) {
   //If theres something in the array
   if (numArray[0]) {
     
-    //gehe solange in die Schleife wie der erste Eintrag besetzt ist
+    //while there is a first item in the array
     while ( duplicateArray[0] ) {
       
+      //Add the current number and name to the string
       string += `${index}. ${numArray[index-1]}`;
       
-      //Falls es noch einen nächsten Eintrag gibt, häng ein komma und Leerzeichen an
+      //If there is another entry rught after this one, add a comma and space
       if (numArray[index]) {
         
         string += ", ";
