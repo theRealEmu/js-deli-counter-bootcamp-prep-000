@@ -25,4 +25,8 @@ function nowServing(katzDeliLine) {
 //3) currentLine()
 function currentLine(numArray) {
   
+  if (numArray[0]) {
+    
+  }
+  
 }
