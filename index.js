@@ -22,6 +22,13 @@ function nowServing(katzDeliLine) {
 }
 
 
+//9 removeFirstKitten()
+function removeFirstKitten() {
+  
+  return kittens.slice(1, kittens.length);
+  
+}
+
 //3) currentLine()
 function currentLine(numArray) {
   
