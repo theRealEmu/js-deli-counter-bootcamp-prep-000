@@ -56,6 +56,6 @@ function currentLine(numArray) {
   }
   
   //If teh array doesn't exist...
-  return "The line is curently empty."
+  return "The line is currently empty."
   
 }
