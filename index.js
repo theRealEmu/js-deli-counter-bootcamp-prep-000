@@ -36,11 +36,15 @@ function currentLine(numArray) {
   var string = "The line is currently: ";
   var index = 0;
   
-  while ( duplicateArray[0] ) {
-    
-    string += `${index} ${numArray[index]`};
-    string += num
-  }
+  if (numArray[0]) {
+    while ( duplicateArray[0] ) {
+      
+      string += `${index} ${numArray[index]}`;
+      duplicateArray.shift();
+      index += 1;
+      
+    }
+  
   
   if (numArray[0]) {
     
