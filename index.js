@@ -6,3 +6,15 @@ function takeANumber(numarray, name) {
   
 }
 
+
+
+//2) nowServing()
+function nowServing(katzDeliLine) {
+  
+  if (katzDeliLine[0]) {
+    return katzDeliLine[0]
+  }
+  
+  return "There is nobody waiting to ba served";
+  
+}
