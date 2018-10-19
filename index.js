@@ -28,7 +28,7 @@ function currentLine(numArray) {
   
   var duplicateArray = numArray.slice();
   var string = "The line is currently: ";
-  var index = 0;
+  var index = 1;
   
   if (numArray[0]) {
     while ( duplicateArray[0] ) {
