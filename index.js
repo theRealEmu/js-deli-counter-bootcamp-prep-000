@@ -32,11 +32,11 @@ function removeFirstKitten() {
 //3) currentLine()
 function currentLine(numArray) {
   
-  var duplicateArray = numArray;
+  var duplicateArray = numArray.slice();
   var string = "The line is currently: ";
   var index = 0;
   
-  while ( numArray[0] ) {
+  while ( duplicateArray[0] ) {
     
     string += `${index} ${numArray[index]`};
     string += num
