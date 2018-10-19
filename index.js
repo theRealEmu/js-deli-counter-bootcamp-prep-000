@@ -30,7 +30,7 @@ function currentLine(numArray) {
   var string = "The line is currently: ";
   var index = 1;
   
-  //Sofern das Array nicht leer ist
+  //If theres something in the array
   if (numArray[0]) {
     
     //gehe solange in die Schleife wie der erste Eintrag besetzt ist
@@ -45,6 +45,7 @@ function currentLine(numArray) {
         
       }
       
+      //Jetzt lösche den ersten Eintrag
       duplicateArray.shift();
       index += 1;
       
@@ -53,6 +54,7 @@ function currentLine(numArray) {
     return string;
   }
   
+  //If teh array doesn't exist...
   return "The line is curently empty."
   
 }
