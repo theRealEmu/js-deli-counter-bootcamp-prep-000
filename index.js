@@ -30,11 +30,15 @@ function currentLine(numArray) {
   var string = "The line is currently: ";
   var index = 1;
   
+  //Sofern das Array nicht leer ist
   if (numArray[0]) {
+    
+    //gehe solange in die Schleife wie der erste Eintrag besetzt ist
     while ( duplicateArray[0] ) {
       
       string += `${index}. ${numArray[index-1]}`;
       
+      //Falls es noch einen nächsten Eintrag gibt, häng ein komma und Leerzeichen an
       if (numArray[index]) {
         
         string += ", ";
