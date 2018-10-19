@@ -26,8 +26,13 @@ function nowServing(katzDeliLine) {
 function currentLine(numArray) {
   
   if (numArray[0]) {
+    
     var string = JSON.stringify(numArray);
-    return string;
-  }
+    return "The line is currently " + string;
+    
+  } 
+  
+  return "The line is curently empty."
+  
   
 }
