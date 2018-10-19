@@ -25,6 +25,15 @@ function nowServing(katzDeliLine) {
 //3) currentLine()
 function currentLine(numArray) {
   
+  var string = "The line is currently: ";
+  var index = 0;
+  
+  while ( numArray[0] ) {
+    
+    string += `${index} ${numArray[index]`};
+    string += num
+  }
+  
   if (numArray[0]) {
     
     var string = JSON.stringify(numArray);
