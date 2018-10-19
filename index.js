@@ -1,8 +1,8 @@
 //1) takeANumber()
-function takeANumber(numarray, name) {
+function takeANumber(numArray, name) {
   
   numarray.push(name);
-  return `Welcome, ${name}. You are number ${numarray.length} in line.`;
+  return `Welcome, ${name}. You are number ${numArray.length} in line.`;
   
 }
 
@@ -23,6 +23,6 @@ function nowServing(katzDeliLine) {
 
 
 //3) currentLine()
-function currentLine() {
+function currentLine(numArray) {
   
 }
