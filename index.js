@@ -22,12 +22,6 @@ function nowServing(katzDeliLine) {
 }
 
 
-//9 removeFirstKitten()
-function removeFirstKitten() {
-  
-  return kittens.slice(1, kittens.length);
-  
-}
 
 //3) currentLine()
 function currentLine(numArray) {
@@ -44,16 +38,10 @@ function currentLine(numArray) {
       index += 1;
       
     }
-  
-  
-  if (numArray[0]) {
     
-    var string = JSON.stringify(numArray);
-    return "The line is currently " + string;
-    
-  } 
+    return string;
+  }
   
   return "The line is curently empty."
-  
   
 }
