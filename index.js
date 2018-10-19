@@ -33,7 +33,14 @@ function currentLine(numArray) {
   if (numArray[0]) {
     while ( duplicateArray[0] ) {
       
-      string += `, ${index}. ${numArray[index-1]}`;
+      string += `${index}. ${numArray[index-1]}`;
+      
+      if (numArray[index]) {
+        
+        string += ", ";
+        
+      }
+      
       duplicateArray.shift();
       index += 1;
       
