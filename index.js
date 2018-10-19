@@ -12,7 +12,9 @@ function takeANumber(numarray, name) {
 function nowServing(katzDeliLine) {
   
   if (katzDeliLine[0]) {
-    return katzDeliLine[0]
+    let first = katzDeliLine[0];
+    katzDeliLine.
+    return first
   }
   
   return "There is nobody waiting to ba served";
