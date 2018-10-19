@@ -31,7 +31,7 @@ function currentLine(numArray) {
   var index = 1;
   
   if (numArray[0]) {
-    while ( duplicateArray[0] !== undefined) {
+    while ( duplicateArray[0] ) {
       
       string += `, ${index}. ${numArray[index-1]}`;
       duplicateArray.shift();
