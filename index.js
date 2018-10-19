@@ -1,7 +1,7 @@
 //1) takeANumber()
 function takeANumber(numArray, name) {
   
-  numarray.push(name);
+  numArray.push(name);
   return `Welcome, ${name}. You are number ${numArray.length} in line.`;
   
 }
